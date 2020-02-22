@@ -30,17 +30,18 @@
   "author": "Tanner Linsley <tannerlinsley@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.8.4",
     "@babel/runtime": "^7.4.5",
-    "babel-plugin-macros": "^2.0.0",
-    "babel-register": "^6.26.0",
-    "babylon": "^6.18.0",
+    "babel-plugin-macros": "^2.8.0",
+    "@babel/register": "^7.8.3",
+    "@babel/parser": "^7.8.4",
     "eslint-config-prettier": "^4.3.0",
     "require-from-string": "^2.0.1"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-react": "^7.8.3",
     "ast-pretty-print": "^2.0.1",
-    "babel-eslint": "9.x",
+    "babel-eslint": "^10.0.3",
     "babel-plugin-tester": "^6.2.1",
     "eslint": "5.x",
     "eslint-config-react-app": "^4.0.1",
